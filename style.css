@@ -325,14 +325,33 @@ header a{
     }
 }
 @media screen and (max-width: 678px) {
-    .carousel .list .item .content{
+/*     .carousel .list .item .content{
         padding-right: 0;
     }
     .carousel .list .item .content .title{
         font-size: 30px;
+    } */
+
+a{
+        font-size: 20px;
+    }
+    .header{
+        gap: 5px;
+    }
+    .carousel .list .item .content{
+        padding-right: 0;
+        padding-left: 10px;
+    }
+    .carousel .list .item .content .title{
+        font-size: 30px;
+    }
+    .carousel .list .item .content .topic{
+        font-size: 30px;
+    }
+    .carousel .list .item .content .des{
+        font-size: 10px;
     }
 }
-
 
 
 
